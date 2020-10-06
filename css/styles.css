@@ -41,3 +41,9 @@ header h2 {
 #campsiteButton {
     margin-bottom: 80px;
 }
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
