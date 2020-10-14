@@ -62,3 +62,13 @@ header h2 {
 .test {
     background-color: #60106B;
 }
+
+/* CAROUSEL BUTTON */
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* z-index displays on top of the image */
+    z-index: 100;
+}
