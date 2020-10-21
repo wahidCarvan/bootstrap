@@ -1,9 +1,11 @@
+$color-teal:  #17A2B8;
 $color-primary: #3046C5;
 $color-secondary: #5637dd;
 $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
+
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
@@ -24,6 +26,7 @@ h2 {
 header h2 {
     color: $color-pale;
 }
+
 
 .site-footer {
     background-image: linear-gradien($color-pale, white);
@@ -79,3 +82,32 @@ header h2 {
     /* z-index displays on top of the image */
     z-index: 100;
 }
+
+
+#reserveModal {
+h3 {
+color: white;   
+    }   
+} 
+.modal-content {
+
+.modal-header {
+    background-color: $color-teal;
+}
+}
+
+
+#loginModal {
+
+ .modal-header {
+background-color: $color-mid; 
+}
+}
+
+.modal-title {
+    color: white;
+}
+
+
+
+

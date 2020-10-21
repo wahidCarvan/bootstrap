@@ -50,3 +50,15 @@ header h2 {
   bottom: 0;
   /* z-index displays on top of the image */
   z-index: 100; }
+
+#reserveModal h3 {
+  color: white; }
+
+.modal-content .modal-header {
+  background-color: #17A2B8; }
+
+#loginModal .modal-header {
+  background-color: #901CAD; }
+
+.modal-title {
+  color: white; }
